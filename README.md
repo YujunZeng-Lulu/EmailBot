@@ -14,11 +14,11 @@ Designed an auto email sender
 4. For mode ii, the only required column in the Excel is receivers' email address. The column name must be one of the following: <recipient>/<email>/<to>.
 5. For mode ii, all other columns will be matched and filled to both subject and message. The column name must be in the form <XXX>, and the same form in the subject/message.（进一步解释：群发模式下，邮件模版是可以灵活定制的。只要在邮件模版里用<>进行挖空，然后在Excel里把<>相关信息补上即可。）
 6. The final subject would be the text in 'or Type Your Subject:' (with <xxx> filled by info in the Excel, if applicable).
-7. There are some fields (prompt, generate) retained for future GPT usage, which are not yet available given concerns issues regarding ChatGPT API（1. 最好能用一个公用的GPT账号，防止私人账号被封号；2. 如果能白嫖到Minimax的API最好，因为OpenAI需要收费，约每封邮件0.1美元。 ）.
+7. There are some fields (prompt, generate) retained for future GPT usage, which are not yet available given concerns issues regarding ChatGPT API（1. 多人使用的情况下，最好能用一个公用的GPT账号，防止私人账号被封号；2. OpenAI需要收费，约每封邮件0.1美元。 ）.
 8. To add new templates, please find the file templates.json and put them there.
 9. To add new subject templates, please find subjects.json.
 10. To change any format of the signature, please find signature.html.
-11. Met a bug or need help? Please contact Yujun (wechat:LuluTsengBEST).
+11. Met a bug or need help? Please contact Yujun (yujun.lulu.zeng@gmail.com).
 
 Wish you a bright day! :)
 
